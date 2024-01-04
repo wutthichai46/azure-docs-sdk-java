@@ -7,20 +7,20 @@ summary: "Represents a set of Image Analysis capabilities used for a finite peri
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedClassMethods:
-- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
   methodsRef:
-  - "<xref href=\"java.lang.Object.clone()?alt=java.lang.Object.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.equals(java.lang.Object)?alt=java.lang.Object.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.finalize()?alt=java.lang.Object.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.hashCode()?alt=java.lang.Object.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.toString()?alt=java.lang.Object.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
-syntax: "public final class **ImageAnalyzer**</br> implements <xref href=\"java.lang.AutoCloseable?alt=java.lang.AutoCloseable&text=AutoCloseable\" data-throw-if-not-resolved=\"False\" />"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ImageAnalyzer**</br> implements <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html\">AutoCloseable</a>"
 constructors:
 - uid: "com.azure.ai.vision.imageanalysis.ImageAnalyzer.ImageAnalyzer(com.azure.ai.vision.common.VisionServiceOptions,com.azure.ai.vision.common.VisionSource,com.azure.ai.vision.imageanalysis.ImageAnalysisOptions)"
   fullName: "com.azure.ai.vision.imageanalysis.ImageAnalyzer.ImageAnalyzer(VisionServiceOptions serviceOptions, VisionSource source, ImageAnalysisOptions analysisOptions)"
@@ -75,7 +75,7 @@ methods:
   desc: "Performs image analysis operation asynchronously against the source provided when this ImageAnalyzer was created."
   returns:
     description: "Mono reactive type that emits ImageAnalysisResult when analysis\n         completes"
-    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.vision.imageanalysis.ImageAnalysisResult?alt=com.azure.ai.vision.imageanalysis.ImageAnalysisResult&text=ImageAnalysisResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.ai.vision.imageanalysis.ImageAnalysisResult?alt=com.azure.ai.vision.imageanalysis.ImageAnalysisResult&text=ImageAnalysisResult\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.azure.ai.vision.imageanalysis.ImageAnalyzer.close()"
   fullName: "com.azure.ai.vision.imageanalysis.ImageAnalyzer.close()"
   name: "close()"
@@ -88,7 +88,7 @@ methods:
 type: "class"
 desc: "Represents a set of Image Analysis capabilities used for a finite period of time, with a given set of options and input.\n\nNote: close() must be called in order to release underlying resources held by the object."
 implements:
-- "<xref href=\"java.lang.AutoCloseable?alt=java.lang.AutoCloseable&text=AutoCloseable\" data-throw-if-not-resolved=\"False\" />"
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html\">AutoCloseable</a>"
 metadata: {}
 package: "com.azure.ai.vision.imageanalysis"
 artifact: com.azure:azure-ai-vision-imageanalysis:0.15.1-beta.1
