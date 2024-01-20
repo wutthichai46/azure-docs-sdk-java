@@ -1607,10 +1607,6 @@
       - com.azure.messaging.servicebus.administration
       - com.azure.messaging.servicebus.administration.models
       - com.azure.messaging.servicebus.models
-      - com.azure.messaging.servicebus
-      - com.azure.messaging.servicebus.administration
-      - com.azure.messaging.servicebus.administration.models
-      - com.azure.messaging.servicebus.models
     - name: Management
       items:
       - name: Resource Management - Service Bus
@@ -1823,10 +1819,6 @@
         - name: AMQP
           href: ~/docs-ref-services/latest/core-amqp-readme.md
           children:
-          - com.azure.core.amqp
-          - com.azure.core.amqp.client.traits
-          - com.azure.core.amqp.exception
-          - com.azure.core.amqp.models
           - com.azure.core.amqp
           - com.azure.core.amqp.client.traits
           - com.azure.core.amqp.exception
