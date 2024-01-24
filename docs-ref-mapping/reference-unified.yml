@@ -455,7 +455,7 @@
       href: ~/docs-ref-services/{moniker}/ai-vision-imageanalysis-readme.md
       children:
       - com.azure.ai.vision.imageanalysis
-      - com.azure.ai.vision.imageanalysis.implementation
+      - com.azure.ai.vision.imageanalysis.models
     - name: Computer Vision
       href: ~/docs-ref-services/{moniker}/cognitiveservices-computervision-readme.md
       children:
@@ -2950,10 +2950,6 @@
       - com.azure.messaging.servicebus.administration
       - com.azure.messaging.servicebus.administration.models
       - com.azure.messaging.servicebus.models
-      - com.azure.messaging.servicebus
-      - com.azure.messaging.servicebus.administration
-      - com.azure.messaging.servicebus.administration.models
-      - com.azure.messaging.servicebus.models
     - name: Service Bus (deprecated)
       href: ~/docs-ref-services/{moniker}/servicebus-readme.md
       children:
@@ -3038,6 +3034,19 @@
         href: ~/docs-ref-services/{moniker}/mgmt-appplatform-readme.md
         children:
         - com.microsoft.azure.management.appplatform.v2020_07_01
+  - name: Springappdiscovery
+    href: ~/docs-ref-services/{moniker}/springappdiscovery.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Springappdiscovery
+        href: ~/docs-ref-services/{moniker}/resourcemanager-springappdiscovery-readme.md
+        children:
+        - com.azure.resourcemanager.springappdiscovery
+        - com.azure.resourcemanager.springappdiscovery.fluent
+        - com.azure.resourcemanager.springappdiscovery.fluent.models
+        - com.azure.resourcemanager.springappdiscovery.models
   - name: SQL
     href: ~/docs-ref-services/{moniker}/sql.md
     landingPageType: Service
@@ -3433,10 +3442,6 @@
         - name: AMQP
           href: ~/docs-ref-services/{moniker}/core-amqp-readme.md
           children:
-          - com.azure.core.amqp
-          - com.azure.core.amqp.client.traits
-          - com.azure.core.amqp.exception
-          - com.azure.core.amqp.models
           - com.azure.core.amqp
           - com.azure.core.amqp.client.traits
           - com.azure.core.amqp.exception
